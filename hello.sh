@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#studying more bash
 echo "What is your name?"
 read name
 
