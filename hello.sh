@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#studying more bash
+#studying more bash 2
 echo "What is your name?"
 read name
 
