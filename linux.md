@@ -1,5 +1,7 @@
 # Linux commands
 
+based on [60 Linux Commands you NEED to know - by NetworkChuck](https://www.youtube.com/watch?v=gd7BXuUQ91w)
+
 ## File and Directory Manipulation
 - ls: list all files in the current directory
     - ls -l: format as list
@@ -29,7 +31,14 @@
 - ln -s filename linkname: create a link to a file (-s for soft)
 - zip zipfilename filename: zips/compacts files into a zip file
 - unzip filename: unzip a file
+- cmp filename filename2: compare 2 files and state if there's a difference
+- diff filename filename2: shows what is the diff between the 2 files
 - clear: clear the terminal
+- filename | sort: will sort using the alphabet
+- find: to find something
+    - find dirPath -name "filename": finds a file in the specified dir
+- chmod +X filename: make a file executable
+- chown filename user: change ownership of a file
 
 ## Users and Passwords
 - whoami: print username
@@ -52,8 +61,17 @@
 ## Internet
 - wget url: download stuff from the internet
 - curl url > filename: download stuff from the internet and store it in a file
+- ifconfig: print IP adress
+- ip address: print IP adress (beautifully)
+- ping url: find if a website is online
+- traceroute url: find every step of the route until the specified website
 
-
+## Filtering
+- grep: filters lines that begin with something
+    - ip address | grep eth0: will give you only that line
+- awk regex: finds text based on a regex pattern
 
 ## Extra
 - press Q to quit
+- sudo shutdown: shutdown the machine in 1 min
+    - sudo shutdown -h now: shutdown the machine now
