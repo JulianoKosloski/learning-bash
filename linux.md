@@ -1,6 +1,8 @@
 # Linux commands
 
-based on [60 Linux Commands you NEED to know - by NetworkChuck](https://www.youtube.com/watch?v=gd7BXuUQ91w)
+based on:
+[60 Linux Commands you NEED to know - by NetworkChuck](https://www.youtube.com/watch?v=gd7BXuUQ91w)
+[The 50 Most Popular Linux & Terminal Commands - Full Course for Beginners - by FreeCodeCamp](https://www.youtube.com/watch?v=ZtqBQ68cfJc&t=1158s)
 
 ## File and Directory Manipulation
 - ls: list all files in the current directory
@@ -67,11 +69,16 @@ based on [60 Linux Commands you NEED to know - by NetworkChuck](https://www.yout
 - traceroute url: find every step of the route until the specified website
 
 ## Filtering
-- grep: filters lines that begin with something
+- grep: search for string ocurrences
     - ip address | grep eth0: will give you only that line
 - awk regex: finds text based on a regex pattern
 
+## Piping
+- |: the pipe is useful for passing the output of a command to another command
+    - cat filename.txt | wc: prints the file content and counts words in the file
+
 ## Extra
 - press Q to quit
+- ctrl + L to clear without typing the command
 - sudo shutdown: shutdown the machine in 1 min
     - sudo shutdown -h now: shutdown the machine now
