@@ -2,6 +2,7 @@
 
 #studying more bash 2
 #installed Windows Subsystem for Linux to use bash in vs code
+
 echo "What is your name?"
 read name
 
@@ -16,3 +17,5 @@ then
 else
     echo "Sorry to hear that."
 fi
+
+# now let's try a loop
