@@ -18,4 +18,14 @@ else
     echo "Sorry to hear that."
 fi
 
-# now let's try a loop
+# now let's try a loop and functions
+
+function shout {
+    local message="HEY, I'M HERE!"
+    for (( i=0;i<5;i++)); do
+        echo $message
+    done  
+}
+
+#calling the function
+shout
